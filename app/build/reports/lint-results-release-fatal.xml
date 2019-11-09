@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="4" by="lint 3.2.1">
+
+    <issue
+        id="UnknownId"
+        severity="Fatal"
+        message="The id &quot;`qr_eventTitle`&quot; is not defined anywhere."
+        category="Correctness"
+        priority="8"
+        summary="Reference to an unknown id"
+        explanation="The `@+id/` syntax refers to an existing id, or creates a new one if it has not already been defined elsewhere. However, this means that if you have a typo in your reference, or if the referred view no longer exists, you do not get a warning since the id will be created on demand. This check catches errors where you have renamed an id without updating all of the references to it."
+        errorLine1="        android:layout_below=&quot;@+id/qr_eventTitle&quot;"
+        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\activity_scan_qr_code.xml"
+            line="15"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/imageView&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="71"
+            column="17"/>
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="41"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/imageView&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="101"
+            column="17"/>
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="41"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="DuplicateIds"
+        severity="Fatal"
+        message="Duplicate id `@+id/imageView`, already defined earlier in this layout"
+        category="Correctness"
+        priority="7"
+        summary="Duplicate ids within a single layout"
+        explanation="Within a layout, id&apos;s should be unique since otherwise `findViewById()` can return an unexpected view."
+        errorLine1="                android:id=&quot;@+id/imageView&quot;"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="131"
+            column="17"/>
+        <location
+            file="C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\res\layout\fragment_profile.xml"
+            line="41"
+            column="17"/>
+    </issue>
+
+</issues>

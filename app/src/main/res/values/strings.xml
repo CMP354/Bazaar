@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">AUS</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">bazaar</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password </string>
+    <string name="prompt_password_reenter">Re-Enter Password </string>
+    <string name="prompt_id">AUS ID </string>
+    <string name="prompt_firstname">First Name </string>
+    <string name="prompt_lastname">Last Name </string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_log_in_short">Log in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+
+    <string name="title_profile">Profile</string>
+    <string name="title_categories">Categories</string>
+    <string name="title_search">Search</string>
+    <string name="title_shops">Shops</string>
+
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_sign_up">Sign Up</string>
+    <string name="action_sign_up_short">Sign Up</string>
+    <string name="title_activity_sign">Sign in</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_edit_profile">EditProfileActivity</string>
+    <string name="title_activity_show_qrcode">ShowQRCodeActivity</string>
+
+
+
+</resources>

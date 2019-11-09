@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="5dp"
+    android:background="@drawable/round_corners"
+    android:orientation="horizontal"
+    android:weightSum="4"
+    app:cardBackgroundColor="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+
+        <TextView
+            android:id="@+id/news_title_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:textColor="@android:color/background_dark"
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/news_title_desc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:maxLines="2"
+                android:ellipsize="end"
+                android:textColor="@android:color/black" />
+
+            <ImageButton
+                android:id="@+id/moreBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:padding="10dp"
+                app:srcCompat="@drawable/ic_arrow_24dp" />
+        </LinearLayout>
+
+        <!--android:text="Office of Student Affairs congratulates our students for the success of this year’s Global Day event.  Our appreciations to the staff and faculty and the various AUS units for extending their support to our students.  Special recognition goes to the Student Council and to the members of our ethnic clubs for presenting their cultures through their spectacular  performances and colorful pavilions.  Job well done!"
+            -->
+
+
+        <!--
+        <Button
+            android:id="@+id/btShowmore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="@android:color/transparent"
+            android:text="Showmore..."
+            android:textAllCaps="false"
+            android:textColor="@android:color/holo_blue_light" />
+            -->
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

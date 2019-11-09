@@ -1,0 +1,335 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:56:9-64:20
+	android:grantUriPermissions
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:60:13-47
+	android:authorities
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:58:13-60
+	android:exported
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:57:13-67
+manifest
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a29e891f3544344128c0567628cb2f0b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\15f4b8acdc945e833940cd6c5576e03b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4726af0d1a622b5e260a91a974270f88\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\5c02aa8766a5a993565db3e2c9112035\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\bdd8db3fc49336eaf7fad1dbb351018c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\10c11724a5d203754cc810a04fb3aa4c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2ddd5f8385da3ae1f3f28d1a43e3d178\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\913c2c4edbe5cfe0742dbe6ef4eac952\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\53bf5b581e3212140a96e64f7bbcd761\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b7f847be1af478f810e7bbd4b073a785\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5dfa8b5d569ed84e6a497b1bc1a86ae2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd45a7fa4951c2bc6a8ece83135e3679\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0195aaa7f162c54980d5639d0b2416c8\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\72bf8a0cf068ecbcd010d8a8e92011de\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c9a5001297d28fb86d0ae10c309c04e7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f99f9ac0399fb824fc03279a020ec39f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\367254df53df69efb4f4be4df3721400\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5a0b75c48c112109542181365254da7c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3af0d4ece9e266ace0edff1f6c28419a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d8d199b143052f3f51a09220f04192cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3b5e18e50d569845ff11a3e0f4356027\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fe6ef0f94c4ab9bf13e87535660a6ef9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\054550d9a34337eeb1958917ae70f2ee\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\11d9ab048a5205e73f6227fc853415b0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ff8c07bfa3ca93907fb16d675b82abf2\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\22e358d03767ba1baf6e0930a76fa18d\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5bb4b4d2f9aaedccde16089bfc9addd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\31181396d66eb5d805fb4fff89039fa7\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3e23d916211caa9400652dd13a019608\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\71062208d8ae74fe89bb79085ad00191\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0546eeb765f2a45f89db8ce1686575e0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0ae34d6812f6805cc642505b0b43170\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\080fceb976eddd99d3fe9b0a5605a9c1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\140f4ac1a59f300cc67da090b78445bf\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2f3d77bb59fb7f8916a3d00011ce4bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\385a3f0caa2765291e9ca2093b248df9\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0e71ca262fb1ccf95a0d38b44378a567\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\86035cb8c7c41a3a7d58533462eae6bf\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\23785e2bf5f1e3da5444d7086332fbdd\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\f77a8dd23d070e2c37989c098240586d\AndroidManifest.xml:2:1-6:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:1-72:12
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:2:11-69
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:7:5-9:35
+	android:value
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:9:9-32
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:8:9-66
+uses-feature#android.hardware.camera
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:11:5-13:35
+	android:required
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:13:9-32
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:12:9-47
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:15:5-65
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:15:22-62
+uses-feature#android.hardware.camera.autofocus
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:17:5-70
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:17:19-67
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:22:5-67
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:23:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:24:5-71
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:24:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:25:5-72
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:25:22-69
+application
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:28:5-70:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a29e891f3544344128c0567628cb2f0b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a29e891f3544344128c0567628cb2f0b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4726af0d1a622b5e260a91a974270f88\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4726af0d1a622b5e260a91a974270f88\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\5c02aa8766a5a993565db3e2c9112035\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\5c02aa8766a5a993565db3e2c9112035\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\bdd8db3fc49336eaf7fad1dbb351018c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\bdd8db3fc49336eaf7fad1dbb351018c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\10c11724a5d203754cc810a04fb3aa4c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\10c11724a5d203754cc810a04fb3aa4c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\11d9ab048a5205e73f6227fc853415b0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\11d9ab048a5205e73f6227fc853415b0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\385a3f0caa2765291e9ca2093b248df9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\385a3f0caa2765291e9ca2093b248df9\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0e71ca262fb1ccf95a0d38b44378a567\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0e71ca262fb1ccf95a0d38b44378a567\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\86035cb8c7c41a3a7d58533462eae6bf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\86035cb8c7c41a3a7d58533462eae6bf\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\23785e2bf5f1e3da5444d7086332fbdd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\23785e2bf5f1e3da5444d7086332fbdd\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\f77a8dd23d070e2c37989c098240586d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\f77a8dd23d070e2c37989c098240586d\AndroidManifest.xml:5:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:33:9-35
+	android:label
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:31:9-41
+	android:roundIcon
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:32:9-54
+	android:icon
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:30:9-43
+	android:allowBackup
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:29:9-35
+	android:theme
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:34:9-40
+activity#com.example.linaeilouti.aus.Activities.SplashActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:35:9-43:20
+	android:label
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:37:13-57
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:36:13-54
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:41:27-74
+activity#com.example.linaeilouti.aus.Activities.SignUpActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:44:9-46:62
+	android:label
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:46:13-59
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:45:13-54
+activity#com.example.linaeilouti.aus.Activities.AdminMainActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:47:9-66
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:47:19-63
+activity#com.example.linaeilouti.aus.Activities.MainActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:48:9-51:47
+	android:label
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:50:13-56
+	android:theme
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:51:13-44
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:49:13-52
+activity#com.example.linaeilouti.aus.Activities.EventDetailsActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:52:9-69
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:52:19-66
+activity#com.example.linaeilouti.aus.Activities.NewsDetailsActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:53:9-68
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:53:19-65
+activity#com.example.linaeilouti.aus.Activities.LoginActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:54:9-62
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:54:19-59
+activity#com.example.linaeilouti.aus.Activities.EditProfileActivity
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:66:9-69:56
+	android:label
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:68:13-64
+	android:theme
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:67:13-59
+uses-sdk
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a29e891f3544344128c0567628cb2f0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\a29e891f3544344128c0567628cb2f0b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\15f4b8acdc945e833940cd6c5576e03b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\15f4b8acdc945e833940cd6c5576e03b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4726af0d1a622b5e260a91a974270f88\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\4726af0d1a622b5e260a91a974270f88\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\5c02aa8766a5a993565db3e2c9112035\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-11.8.0.aar\5c02aa8766a5a993565db3e2c9112035\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\bdd8db3fc49336eaf7fad1dbb351018c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-vision-common:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-11.8.0.aar\bdd8db3fc49336eaf7fad1dbb351018c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\10c11724a5d203754cc810a04fb3aa4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.8.0.aar\10c11724a5d203754cc810a04fb3aa4c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2ddd5f8385da3ae1f3f28d1a43e3d178\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\2ddd5f8385da3ae1f3f28d1a43e3d178\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\913c2c4edbe5cfe0742dbe6ef4eac952\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\913c2c4edbe5cfe0742dbe6ef4eac952\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\53bf5b581e3212140a96e64f7bbcd761\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\53bf5b581e3212140a96e64f7bbcd761\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b7f847be1af478f810e7bbd4b073a785\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\b7f847be1af478f810e7bbd4b073a785\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5dfa8b5d569ed84e6a497b1bc1a86ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\5dfa8b5d569ed84e6a497b1bc1a86ae2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd45a7fa4951c2bc6a8ece83135e3679\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\bd45a7fa4951c2bc6a8ece83135e3679\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0195aaa7f162c54980d5639d0b2416c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\0195aaa7f162c54980d5639d0b2416c8\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\72bf8a0cf068ecbcd010d8a8e92011de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\72bf8a0cf068ecbcd010d8a8e92011de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c9a5001297d28fb86d0ae10c309c04e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\c9a5001297d28fb86d0ae10c309c04e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f99f9ac0399fb824fc03279a020ec39f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\f99f9ac0399fb824fc03279a020ec39f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\367254df53df69efb4f4be4df3721400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\367254df53df69efb4f4be4df3721400\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5a0b75c48c112109542181365254da7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\5a0b75c48c112109542181365254da7c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3af0d4ece9e266ace0edff1f6c28419a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\3af0d4ece9e266ace0edff1f6c28419a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d8d199b143052f3f51a09220f04192cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\d8d199b143052f3f51a09220f04192cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3b5e18e50d569845ff11a3e0f4356027\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\3b5e18e50d569845ff11a3e0f4356027\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fe6ef0f94c4ab9bf13e87535660a6ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\fe6ef0f94c4ab9bf13e87535660a6ef9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\054550d9a34337eeb1958917ae70f2ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\054550d9a34337eeb1958917ae70f2ee\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\ae9b4204ec89cfaba34ad347af14e8a6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\11d9ab048a5205e73f6227fc853415b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\11d9ab048a5205e73f6227fc853415b0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ff8c07bfa3ca93907fb16d675b82abf2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\ff8c07bfa3ca93907fb16d675b82abf2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\22e358d03767ba1baf6e0930a76fa18d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\22e358d03767ba1baf6e0930a76fa18d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5bb4b4d2f9aaedccde16089bfc9addd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\f5bb4b4d2f9aaedccde16089bfc9addd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\31181396d66eb5d805fb4fff89039fa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\31181396d66eb5d805fb4fff89039fa7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3e23d916211caa9400652dd13a019608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3e23d916211caa9400652dd13a019608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\71062208d8ae74fe89bb79085ad00191\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\71062208d8ae74fe89bb79085ad00191\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0546eeb765f2a45f89db8ce1686575e0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\0546eeb765f2a45f89db8ce1686575e0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0ae34d6812f6805cc642505b0b43170\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\b0ae34d6812f6805cc642505b0b43170\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\080fceb976eddd99d3fe9b0a5605a9c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\080fceb976eddd99d3fe9b0a5605a9c1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\140f4ac1a59f300cc67da090b78445bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\140f4ac1a59f300cc67da090b78445bf\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2f3d77bb59fb7f8916a3d00011ce4bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\a2f3d77bb59fb7f8916a3d00011ce4bd\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\385a3f0caa2765291e9ca2093b248df9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-license-11.8.0.aar\385a3f0caa2765291e9ca2093b248df9\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0e71ca262fb1ccf95a0d38b44378a567\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-license-11.8.0.aar\0e71ca262fb1ccf95a0d38b44378a567\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\86035cb8c7c41a3a7d58533462eae6bf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-license-11.8.0.aar\86035cb8c7c41a3a7d58533462eae6bf\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\23785e2bf5f1e3da5444d7086332fbdd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-vision-common-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-vision-common-license-11.8.0.aar\23785e2bf5f1e3da5444d7086332fbdd\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\f77a8dd23d070e2c37989c098240586d\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks-license:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-tasks-license-11.8.0.aar\f77a8dd23d070e2c37989c098240586d\AndroidManifest.xml:4:5-43
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:61:13-63:58
+	android:resource
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:63:17-55
+	android:name
+		ADDED from C:\Users\Lana\Documents\AUS\Spring 2019\Application 8\Application\app\src\main\AndroidManifest.xml:62:17-67
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-base-11.8.0.aar\72b701d8041d6da37178850fc3ac56a6\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.8.0] C:\Users\Lana\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.8.0.aar\31c8635ed20152d60e4c01643c068ed0\AndroidManifest.xml:24:13-58
