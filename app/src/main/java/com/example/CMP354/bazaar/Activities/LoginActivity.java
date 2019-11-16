@@ -110,13 +110,9 @@ public class LoginActivity extends AppCompatActivity {
     public void login(String type, String id, String fname, String lname, String email, String num){
 
         Intent intent=null;
-        if(type=="admin") {
-            intent = new Intent(LoginActivity.this, AdminMainActivity.class);
-        }
-        if(type=="user"){
 
             intent = new Intent(LoginActivity.this, MainActivity.class);
-        }
+
         intent.putExtra("User_ID", id);
         intent.putExtra("User_FName", fname);
         intent.putExtra("User_LName", lname);

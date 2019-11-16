@@ -56,7 +56,7 @@ public class AddEventFragment extends Fragment implements View.OnClickListener {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View view = inflater.inflate(R.layout.fragment_add_event, container, false);
+        View view = inflater.inflate(R.layout.fragment_add_product, container, false);
 
          final TextInputEditText EventTitle= view.findViewById(R.id.newEventTitle);
          final TextInputEditText EventDesc= view.findViewById(R.id.newEventDesc);

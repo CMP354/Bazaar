@@ -3,8 +3,8 @@ package com.example.CMP354.bazaar;
 import android.widget.ImageButton;
 
 import com.example.CMP354.bazaar.Activities.MainActivity;
-import com.example.CMP354.bazaar.Fragments.EventFragment;
-import com.example.CMP354.bazaar.Fragments.HistoryFragment;
+import com.example.CMP354.bazaar.Fragments.ShopsFragment;
+import com.example.CMP354.bazaar.Fragments.SearchFragment;
 import com.example.CMP354.bazaar.Fragments.HomeFragment;
 import com.example.CMP354.bazaar.Fragments.ProfileFragment;
 
@@ -49,10 +49,10 @@ public class MainActivityTest {
         HomeFragment hFragment = new HomeFragment();
         assertNotNull(hFragment);
 
-        HistoryFragment hisFragment = new HistoryFragment();
+        SearchFragment hisFragment = new SearchFragment();
         assertNotNull(hisFragment);
 
-        EventFragment eFragment = new EventFragment();
+        ShopsFragment eFragment = new ShopsFragment();
         assertNotNull(eFragment);
 
     }

@@ -36,6 +36,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="com.example.CMP354.bazaar.Activities.SplashActivity"
@@ -49,7 +50,6 @@
         <activity
             android:name="com.example.CMP354.bazaar.Activities.SignUpActivity"
             android:label="@string/title_activity_sign_up" />
-        <activity android:name="com.example.CMP354.bazaar.Activities.AdminMainActivity" />
         <activity
             android:name="com.example.CMP354.bazaar.Activities.MainActivity"
             android:label="@string/title_activity_main"
@@ -76,6 +76,9 @@
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

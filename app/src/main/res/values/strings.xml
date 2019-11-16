@@ -31,7 +31,11 @@
     <string name="title_activity_main">MainActivity</string>
     <string name="title_activity_edit_profile">EditProfileActivity</string>
     <string name="title_activity_show_qrcode">ShowQRCodeActivity</string>
-
+    <string name="product_name">Product Name</string>
+    <string name="product_description">Product Description</string>
+    <string name="shop_description">Shop Description</string>
+    <string name="location">Location</string>
+    <string name="email">Email</string>
 
 
 </resources>

@@ -12,11 +12,11 @@ import com.example.CMP354.bazaar.R;
 
 public class EventFragment_User extends Fragment implements View.OnClickListener{
 
-    private EventFragment.MainFragmentInteractionListener mListener;
+    private ShopsFragment.ShopsFragmentInteractionListener mListener;
     public EventFragment_User() {}
 
-    public static EventFragment newInstance() {
-        EventFragment fragment = new EventFragment();
+    public static ShopsFragment newInstance() {
+        ShopsFragment fragment = new ShopsFragment();
         Bundle args = new Bundle();
         fragment.setArguments(args);
         return fragment;
@@ -28,7 +28,7 @@ public class EventFragment_User extends Fragment implements View.OnClickListener
     }
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.event_list, container, false);
+        View view=inflater.inflate(R.layout.fragment_shops_list, container, false);
         return view;
     }
     @Override
@@ -39,8 +39,8 @@ public class EventFragment_User extends Fragment implements View.OnClickListener
     @Override
     public void onAttach(Context context) {
         super.onAttach(context);
-        if (context instanceof EventFragment.MainFragmentInteractionListener) {
-            mListener = (EventFragment.MainFragmentInteractionListener) context;
+        if (context instanceof ShopsFragment.ShopsFragmentInteractionListener) {
+            mListener = (ShopsFragment.ShopsFragmentInteractionListener) context;
         } else { throw new RuntimeException(context.toString() + " must implement OnFragmentInteractionListener"); }
     }
     @Override

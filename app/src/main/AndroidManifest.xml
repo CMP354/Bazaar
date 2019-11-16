@@ -42,7 +42,6 @@
         <activity
             android:name="com.example.CMP354.bazaar.Activities.SignUpActivity"
             android:label="@string/title_activity_sign_up" />
-        <activity android:name="com.example.CMP354.bazaar.Activities.AdminMainActivity" />
         <activity
             android:name="com.example.CMP354.bazaar.Activities.MainActivity"
             android:label="@string/title_activity_main"
@@ -69,6 +68,9 @@
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
             android:value="barcode" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
     </application>
 

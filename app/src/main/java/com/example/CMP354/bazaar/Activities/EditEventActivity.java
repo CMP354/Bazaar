@@ -11,7 +11,6 @@ import com.example.CMP354.bazaar.R;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
@@ -37,7 +36,7 @@ public class EditEventActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_edit_event);
+        setContentView(R.layout.activity_edit_product);
 
 
         this.setEventID(getIntent().getStringExtra("Event ID"));
@@ -51,19 +50,19 @@ public class EditEventActivity extends AppCompatActivity {
 
 
 
-        EditText title = findViewById(R.id.edit_newEventTitle);
-        EditText desc = findViewById(R.id.edit_newEventDesc);
-        EditText date = findViewById(R.id.edit_newEventDate);
-        EditText StartTime = findViewById(R.id.edit_newEventStartTime);
-        EditText EndTime = findViewById(R.id.edit_newEventEndTime);
-        EditText loc = findViewById(R.id.edit_newEventLocation);
+        EditText title = findViewById(R.id.editTextProductName);
+        EditText desc = findViewById(R.id.editTextProducDescription);
+        EditText date = findViewById(R.id.editTextProductCost);
+        //EditText StartTime = findViewById(R.id.edit_newEventStartTime);
+      //  EditText EndTime = findViewById(R.id.edit_newEventEndTime);
+       // EditText loc = findViewById(R.id.edit_newEventLocation);
 
         title.setText(this.getEventName());
         desc.setText(this.getEventDesc());
         date.setText(this.getEventDate());
-        StartTime.setText(this.getEventStartTime());
-        EndTime.setText(this.getEventEndTime());
-        loc.setText(this.getEventLocation());
+      //  StartTime.setText(this.getEventStartTime());
+      //  EndTime.setText(this.getEventEndTime());
+      //  loc.setText(this.getEventLocation());
 
 
 
@@ -95,28 +94,28 @@ public class EditEventActivity extends AppCompatActivity {
 
         public void updateEvent(){
 
-        EditText title= findViewById(R.id.edit_newEventTitle);
-        EditText desc= findViewById(R.id.edit_newEventDesc);
-        EditText date= findViewById(R.id.edit_newEventDate);
-        EditText StartTime= findViewById(R.id.edit_newEventStartTime);
-        EditText EndTime= findViewById(R.id.edit_newEventEndTime);
-        EditText loc= findViewById(R.id.edit_newEventLocation);
+        EditText title= findViewById(R.id.editTextProductName);
+        EditText desc= findViewById(R.id.editTextProducDescription);
+        EditText date= findViewById(R.id.editTextProductCost);
+      // // EditText StartTime= findViewById(R.id.edit_newEventStartTime);
+      //  EditText EndTime= findViewById(R.id.edit_newEventEndTime);
+      //  EditText loc= findViewById(R.id.edit_newEventLocation);
 
         String newTitle=title.getText().toString();
         String newDesc=desc.getText().toString();
         String newDate=date.getText().toString();
-        String newStartTime=StartTime.getText().toString();
-        String newEndTime=EndTime.getText().toString();
-        String newLoc=loc.getText().toString();
+     //   String newStartTime=StartTime.getText().toString();
+      //  String newEndTime=EndTime.getText().toString();
+      //  String newLoc=loc.getText().toString();
 
 
         try {
             this.connection = createConnection();
             Statement stmt = connection.createStatement();
 
-                ResultSet rs = stmt.executeQuery("update events set Name='"+
-                        newTitle+"', Description='"+ newDesc+"', event_Date= DATE '"+ newDate +"', start_time='"+
-                        newStartTime+"', end_time='" + newEndTime +"', Location='"+ newLoc+"' where event_ID="+Integer.valueOf(getEventID()));
+               // ResultSet rs = stmt.executeQuery("update events set Name='"+
+                //        newTitle+"', Description='"+ newDesc+"', event_Date= DATE '"+ newDate +"', start_time='"+
+                     //   newStartTime+"', end_time='" + newEndTime +"', Location='"+ newLoc+"' where event_ID="+Integer.valueOf(getEventID()));
 
 
 
