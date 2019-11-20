@@ -4,8 +4,8 @@ import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.StrictMode;
-import android.support.design.widget.TextInputEditText;
-import android.support.v4.app.Fragment;
+//import com.google.android.material.textfield.TextInputLayout;
+
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -19,6 +19,8 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
+
+import androidx.fragment.app.Fragment;
 
 public class AddEventFragment extends Fragment implements View.OnClickListener {
 
@@ -58,12 +60,12 @@ public class AddEventFragment extends Fragment implements View.OnClickListener {
 
         View view = inflater.inflate(R.layout.fragment_add_product, container, false);
 
-         final TextInputEditText EventTitle= view.findViewById(R.id.newEventTitle);
-         final TextInputEditText EventDesc= view.findViewById(R.id.newEventDesc);
-         final TextInputEditText EventDate= view.findViewById(R.id.newEventDate);
-         final TextInputEditText EventLocation= view.findViewById(R.id.newEventLocation);
-         final TextInputEditText EventStartTime= view.findViewById(R.id.newEventStartTime);
-         final TextInputEditText EventEndTime= view.findViewById(R.id.newEventEndTime);
+//         final TextInputEditText EventTitle= view.findViewById(R.id.newEventTitle);
+//         final TextInputEditText EventDesc= view.findViewById(R.id.newEventDesc);
+//         final TextInputEditText EventDate= view.findViewById(R.id.newEventDate);
+//         final TextInputEditText EventLocation= view.findViewById(R.id.newEventLocation);
+//         final TextInputEditText EventStartTime= view.findViewById(R.id.newEventStartTime);
+//         final TextInputEditText EventEndTime= view.findViewById(R.id.newEventEndTime);
 
 
         addEventBtn = view.findViewById(R.id.addEventBtn);
@@ -71,12 +73,12 @@ public class AddEventFragment extends Fragment implements View.OnClickListener {
              @Override
                 public void onClick(View view) {
 
-                 String eventTitle = (EventTitle.getText().toString());
-                 String eventDesc = (EventDesc.getText().toString());
-                 String eventDate = (EventDate.getText().toString());
-                 String eventLocation = (EventLocation.getText().toString());
-                 String eventEndTime = (EventEndTime.getText().toString());
-                 String eventStartTime = (EventStartTime.getText().toString());
+//                 String eventTitle = (EventTitle.getText().toString());
+//                 String eventDesc = (EventDesc.getText().toString());
+//                 String eventDate = (EventDate.getText().toString());
+//                 String eventLocation = (EventLocation.getText().toString());
+//                 String eventEndTime = (EventEndTime.getText().toString());
+//                 String eventStartTime = (EventStartTime.getText().toString());
 
 
                  try {
@@ -84,9 +86,9 @@ public class AddEventFragment extends Fragment implements View.OnClickListener {
                      Statement stmt = connection.createStatement();
                      StringBuffer stringBuffer = new StringBuffer();
 
-                     ResultSet rs = stmt.executeQuery("insert into events ( name, description, location, event_date, start_time, end_time) values('" +
-                              eventTitle + "','" + eventDesc + "','" + eventLocation + "', DATE '" +
-                             eventDate + "','" + eventStartTime + "','" + eventEndTime + "')");
+//                     ResultSet rs = stmt.executeQuery("insert into events ( name, description, location, event_date, start_time, end_time) values('" +
+//                              eventTitle + "','" + eventDesc + "','" + eventLocation + "', DATE '" +
+//                             eventDate + "','" + eventStartTime + "','" + eventEndTime + "')");
 
                      Toast.makeText(getActivity(), "Event Added!", Toast.LENGTH_SHORT).show();
                      getFragmentManager().popBackStack();

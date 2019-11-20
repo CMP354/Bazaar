@@ -43,7 +43,7 @@ public class CustomListAdapter extends ArrayAdapter<String> {
             viewHolder = (ViewHolder) convertView.getTag();
 
             if (title != null) {
-                viewHolder.image = (ImageView) convertView.findViewById(R.id.image);
+               // viewHolder.image = (ImageView) convertView.findViewById(R.id.image);
                 viewHolder.title = (TextView) convertView.findViewById(R.id.shop_name);
                 viewHolder.description = (TextView) convertView.findViewById(R.id.shop_des);
             }

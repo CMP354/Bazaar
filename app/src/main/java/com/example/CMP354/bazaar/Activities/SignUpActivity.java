@@ -1,7 +1,7 @@
 package com.example.CMP354.bazaar.Activities;
 
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AutoCompleteTextView;
@@ -12,7 +12,7 @@ import com.example.CMP354.bazaar.Classes.EmailValidator;
 import com.example.CMP354.bazaar.R;
 
 
-public class SignUpActivity  extends AppCompatActivity {
+public class SignUpActivity  extends Activity {
 
     // The validator for the email input field.
     private EmailValidator mEmailValidator;

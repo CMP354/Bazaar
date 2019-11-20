@@ -1,11 +1,9 @@
 package com.example.CMP354.bazaar.Activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -21,7 +19,11 @@ import com.example.CMP354.bazaar.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity implements
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.fragment.app.FragmentManager;
+
+public class MainActivity extends FragmentActivity implements
         ProfileFragment.ProfileFragmentInteractionListener,
         SearchFragment.SearchFragmentInteractionListener,
         ShopsFragment.ShopsFragmentInteractionListener,
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements
 
     final FragmentManager fm = getSupportFragmentManager();
 
-    Fragment active = myShopFragment;
+    private Fragment active = myShopFragment;
 
     private String FName = "";
     private String LName = "";

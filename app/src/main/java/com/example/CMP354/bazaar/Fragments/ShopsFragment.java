@@ -3,7 +3,6 @@ package com.example.CMP354.bazaar.Fragments;
 import android.content.Context;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -18,6 +17,8 @@ import com.example.CMP354.bazaar.R;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+
+import androidx.fragment.app.Fragment;
 
 public class ShopsFragment extends Fragment implements View.OnClickListener{
 

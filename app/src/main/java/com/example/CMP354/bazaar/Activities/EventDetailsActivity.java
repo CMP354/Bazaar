@@ -1,8 +1,7 @@
 package com.example.CMP354.bazaar.Activities;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceView;
 import android.view.View;
@@ -17,7 +16,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class EventDetailsActivity extends AppCompatActivity {
+public class EventDetailsActivity extends Activity {
 
     private String eventID="";
     private String eventName="";
@@ -37,17 +36,16 @@ public class EventDetailsActivity extends AppCompatActivity {
     private Connection connection;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.event_details);
 
-
-        final FloatingActionButton floatingActionButton = findViewById(R.id.event_signupBtn);
-        final FloatingActionButton unsignupBtn = findViewById(R.id.event_UnsignupBtn);
-        final FloatingActionButton deleteBtn = findViewById(R.id.event_DeleteBtn);
+//
+//        final FloatingActionButton floatingActionButton = findViewById(R.id.event_signupBtn);
+//        final FloatingActionButton unsignupBtn = findViewById(R.id.event_UnsignupBtn);
+//        final FloatingActionButton deleteBtn = findViewById(R.id.event_DeleteBtn);
 
         this.setEventID(getIntent().getStringExtra("EventID"));
         this.setEventName(getIntent().getStringExtra("EventTitle"));
@@ -77,16 +75,16 @@ public class EventDetailsActivity extends AppCompatActivity {
 
 
         if(role.equals("user")) {
-            checkUserSignUp(userID, eventID);
+          //  checkUserSignUp(userID, eventID);
             eventCount.setVisibility(View.INVISIBLE);
             eventCountTitle.setVisibility(View.INVISIBLE);
-            deleteBtn.hide();
-            floatingActionButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    signUpVolun(userID, eventID);
-                }
-            });
+//            deleteBtn.hide();
+//            floatingActionButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    signUpVolun(userID, eventID);
+//                }
+//            });
         }
         if(role.equals("admin")){
             eventCount.setVisibility(View.VISIBLE);
@@ -95,88 +93,88 @@ public class EventDetailsActivity extends AppCompatActivity {
             countV(getEventID());
             eventCount.setText(String.valueOf(this.getCount()));
            // floatingActionButton.setImageResource(R.drawable.ic_qr_add_clear_24dp);
-            floatingActionButton.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(getBaseContext(), "QR Button Clicked", Toast.LENGTH_SHORT).show();
-                }
-            });
-            unsignupBtn.setImageResource(R.drawable.ic_edit_24dp);
-            unsignupBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    Toast.makeText(getBaseContext(), "Edit Button Clicked", Toast.LENGTH_SHORT).show();
-                    editEvent(eventID,eventName,eventDesc,eventDate,eventTime, eventLocation,userID);
-                }
-            });
+//            floatingActionButton.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Toast.makeText(getBaseContext(), "QR Button Clicked", Toast.LENGTH_SHORT).show();
+//                }
+//            });
+//            unsignupBtn.setImageResource(R.drawable.ic_edit_24dp);
+//            unsignupBtn.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    Toast.makeText(getBaseContext(), "Edit Button Clicked", Toast.LENGTH_SHORT).show();
+//                    editEvent(eventID,eventName,eventDesc,eventDate,eventTime, eventLocation,userID);
+//                }
+//            });
 
 
 
         }
     }
-    public void checkUserSignUp(final String userID, final String eventID){
-
-        try {
-            final FloatingActionButton signupBtn = findViewById(R.id.event_signupBtn);
-            final FloatingActionButton unsignupBtn = findViewById(R.id.event_UnsignupBtn);
-
-            this.connection = createConnection();
-            Statement stmt=connection.createStatement();
-
-            boolean found=false;
-            boolean attended=false;
-
-            ResultSet rs=stmt.executeQuery("select * from event_volunteer");
-            while(rs.next()) {
-                if(rs.getString("v_id").equals(userID) && rs.getString("event_id").equals(eventID)){
-                    found=true;
-                    if(rs.getInt("attendance")==1){
-                        attended=true;
-                    }
-                }
-            }
-            if(found==false){ //if they're not signup for an event, show the signup button -> go to sign up function
-
-                signupBtn.show();
-                unsignupBtn.hide();
-                signupBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-
-                        signUpVolun(userID, eventID);
-                    }
-                });
-            }
-            if(found==true && attended==false){ //if they're signed up and have not marked their attendance - allow them to remove themselves
-                                                //-> go to unsignup function
-
-                signupBtn.hide();
-                unsignupBtn.show();
-                unsignupBtn.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        UnsignUpVolun(userID, eventID);
-                    }
-                });
-            }
-            if(found==true && attended==true){ // hide options from events the user attended
-
-                signupBtn.hide();
-                unsignupBtn.hide();
-            }
-            connection.close();
-
-        }
-        catch (Exception e) {
-            Toast.makeText(this, ""+e, Toast.LENGTH_SHORT).show();
-            e.printStackTrace();
-        }
-
-    }
+//    public void checkUserSignUp(final String userID, final String eventID){
+//
+//        try {
+//            final FloatingActionButton signupBtn = findViewById(R.id.event_signupBtn);
+//            final FloatingActionButton unsignupBtn = findViewById(R.id.event_UnsignupBtn);
+//
+//            this.connection = createConnection();
+//            Statement stmt=connection.createStatement();
+//
+//            boolean found=false;
+//            boolean attended=false;
+//
+//            ResultSet rs=stmt.executeQuery("select * from event_volunteer");
+//            while(rs.next()) {
+//                if(rs.getString("v_id").equals(userID) && rs.getString("event_id").equals(eventID)){
+//                    found=true;
+//                    if(rs.getInt("attendance")==1){
+//                        attended=true;
+//                    }
+//                }
+//            }
+//            if(found==false){ //if they're not signup for an event, show the signup button -> go to sign up function
+//
+//                signupBtn.show();
+//                unsignupBtn.hide();
+//                signupBtn.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//
+//                        signUpVolun(userID, eventID);
+//                    }
+//                });
+//            }
+//            if(found==true && attended==false){ //if they're signed up and have not marked their attendance - allow them to remove themselves
+//                                                //-> go to unsignup function
+//
+//                signupBtn.hide();
+//                unsignupBtn.show();
+//                unsignupBtn.setOnClickListener(new View.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        UnsignUpVolun(userID, eventID);
+//                    }
+//                });
+//            }
+//            if(found==true && attended==true){ // hide options from events the user attended
+//
+//                signupBtn.hide();
+//                unsignupBtn.hide();
+//            }
+//            connection.close();
+//
+//        }
+//        catch (Exception e) {
+//            Toast.makeText(this, ""+e, Toast.LENGTH_SHORT).show();
+//            e.printStackTrace();
+//        }
+//
+//    }
 
     public void checkDeleteEvent(final String eventID){
-        final FloatingActionButton deleteBtn = findViewById(R.id.event_DeleteBtn);
-        final FloatingActionButton editBtn = findViewById(R.id.event_UnsignupBtn);
+//        final FloatingActionButton deleteBtn = findViewById(R.id.event_DeleteBtn);
+//        final FloatingActionButton editBtn = findViewById(R.id.event_UnsignupBtn);
         boolean attended=false;
 
         try {
@@ -194,18 +192,18 @@ public class EventDetailsActivity extends AppCompatActivity {
         }
         catch (Exception e) {
         }
-        if( attended==false){
-            deleteBtn.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    deleteEvent(eventID);
-                }
-            });
-        }
-        if(attended==true){
-            deleteBtn.hide();
-            editBtn.hide();
-        }
+//        if( attended==false){
+//            deleteBtn.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View v) {
+//                    deleteEvent(eventID);
+//                }
+//            });
+//        }
+//        if(attended==true){
+//            deleteBtn.hide();
+//            editBtn.hide();
+//        }
 
     }
     public void deleteEvent(String eventID){

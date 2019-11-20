@@ -4,26 +4,7 @@
             "outputFile": "C:\\Users\\Lana\\Documents\\AUS\\8Fall2019\\MobileApps\\Project\\Project1.0\\Application\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Lana\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\7086b083d64d126068c25f1a20c12fea\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Lana\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\d8de2eac487d0f700c98a9bc40b90c98\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\Lana\\.gradle\\caches\\transforms-2\\files-2.1\\ec609e8cee787e2dff3592c66b08a66a\\core-1.0.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

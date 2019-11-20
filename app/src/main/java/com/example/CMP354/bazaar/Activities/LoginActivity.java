@@ -1,9 +1,9 @@
 package com.example.CMP354.bazaar.Activities;
 
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AutoCompleteTextView;
@@ -14,7 +14,7 @@ import android.widget.Toast;
 import com.example.CMP354.bazaar.Classes.EmailValidator;
 import com.example.CMP354.bazaar.R;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends Activity {
 
 
     private AutoCompleteTextView mEmailView;

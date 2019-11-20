@@ -1,6 +1,6 @@
 package com.example.CMP354.bazaar.Activities;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -14,7 +14,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class EditEventActivity extends AppCompatActivity {
+public class EditEventActivity extends Activity {
 
     private static final String DEFAULT_DRIVER = "oracle.jdbc.driver.OracleDriver";
     private static final String DEFAULT_URL = "jdbc:oracle:thin:@coeoracle.aus.edu:1521:orcl";
